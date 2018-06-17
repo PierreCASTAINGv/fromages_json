@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    font-size: 1.125em;
+    font-family: 'Asap', sans-serif;
+    background-image: url(../images/fromages2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+div {
+    position: relative;
+    float: right;
+    margin-right: 2em;
+}
+h1 {
+    position: absolute;
+    top: 400px;
+    left: -230px;
+    font-size: 1.3em;
+    color: rgb(80, 45, 10);
+    transform: rotate(-90deg);
+    text-shadow: 1px 2px 5px rgb(48, 46, 46)
+}
+article {
+    margin: 1.5em 0;
+    padding: 0.5em;
+    background: rgba(46, 46, 46, 07);
+    border-radius: 15px 0 15px;
+    box-shadow: 2px 2px 2px rgb(48, 46, 46);
+}
+
+article > p {
+    font-size: 0.7em;
+    margin: 0.3em 0;
+}
+article > p:nth-child(n) {
+    font-weight: bold;
+    color: peru;
+}
+article > p:nth-child(2n) {
+    font-weight: normal;
+    color: yellow;
+}
+article > p:nth-child(3n) {
+    font-weight: normal;
+    color: bisque;
+}
