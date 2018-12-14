@@ -1,7 +1,7 @@
 // ====================== API Fetch : ex les fromages ============================================
         // ********** utiliser le chemin de votre fichier json *****************
 
-        let url = '../json/fromages.json';
+        let url = './json/fromages.json';
 
         options = [
             method = 'GET',
